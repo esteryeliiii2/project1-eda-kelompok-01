@@ -35,8 +35,13 @@ Dataset berisi data penyewaan sepeda per jam beserta informasi waktu dan kondisi
 3. **Karakteristik jumlah penyewaan**  
    Berdasarkan statistik deskriptif, rata-rata `total_rentals` adalah **189,46 sepeda per jam**, sedangkan mediannya **142 sepeda per jam**. Perbedaan tersebut menunjukkan bahwa distribusi penyewaan cenderung miring ke kanan.
 
+
+## 💻 Cara Menjalankan Notebook
+
 1. Setelah install Miniconda, buat environment `statprob` dengan Python 3.11 dan aktifkan environment:
    ```bash
    conda create -n statprob python=3.11 -y
    conda activate statprob
-2. Masuk ke folder project 1 `cd Documents\project1-eda-kelompok-01`
+2. Lalu install paket yang dibutuhkan `conda install -c conda-forge jupyter pandas matplotlib seaborn -y`
+3. Setelah itu masuk ke folder project 1 `cd Documents\project1-eda-kelompok-01` dan jalankan `jupyter notebook`
+4. Setelah Jupyter Notebook terbuka di browser, pilih file `eda_kelompok_01.ipynb` untuk menjalankan notebook.
